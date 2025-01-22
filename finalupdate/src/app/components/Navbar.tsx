@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="text-xl font-bold">
-          <Link href="/"> Furniture </Link>
+          <Link href="/"> furniSite </Link>
         </div>
 
         {/* Desktop Menu */}
@@ -70,11 +70,7 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
 
-          <li>
-            <Link href="/blog" className="hover:text-gray-600 transition">
-              blog
-            </Link>
-          </li>
+         
 
           <li>
             <Link href="/billing" className="hover:text-gray-600 transition">
